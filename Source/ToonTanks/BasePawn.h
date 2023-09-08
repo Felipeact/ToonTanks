@@ -23,6 +23,7 @@ protected:
 protected:
 
 	void RotateTurret(FVector LookAtTarget);
+	void Fire();
 
 private:
 	//Components
