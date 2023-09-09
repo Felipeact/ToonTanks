@@ -17,10 +17,6 @@ public:
 
 
 protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-protected:
 
 	void RotateTurret(FVector LookAtTarget);
 	void Fire();
@@ -41,12 +37,6 @@ private:
 
 	UPROPERTY(EditDefaultsOnly, Category = "Combat")
 	TSubclassOf<class AProjectile> ProjectileClass;
-
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
 
 
 };
