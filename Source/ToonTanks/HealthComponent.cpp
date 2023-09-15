@@ -49,3 +49,4 @@ void UHealthComponent::DamageTaken(AActor* DamageActor, float Damage, const UDam
 	
 
 }
+
